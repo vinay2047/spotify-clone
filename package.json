@@ -5,10 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"npm install --prefix backend && npm install --prefix backend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix backend && npm run build --prefix frontend",
     "start": "npm start --prefix backend"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@clerk/clerk-react": "^5.35.2",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "lucide-react": "^0.525.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-hot-toast": "^2.5.2",
+    "socket.io-client": "^4.8.1",
+    "zustand": "^5.0.6"
+  }
 }
