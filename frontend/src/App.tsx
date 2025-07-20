@@ -23,7 +23,7 @@ const App = () => {
         <Route path="/" element={<Homepage/>}/>
         <Route path="/chat" element={<ChatPage/>}/>
         <Route path="/albums/:albumId" element={<AlbumPage/>}/>
-        <Route path="/" element={<NotFound/>}/>
+        <Route path="*" element={<NotFound/>}/>
       </Route>
     </Routes>
     <Toaster/>
